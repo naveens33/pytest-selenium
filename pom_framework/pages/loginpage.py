@@ -11,3 +11,4 @@ class LoginPage(BasePage):
         self._enter_text(self.uname_input, uname)
         self._enter_text(self.pword_input, pword)
         self._click(self.signin_button)
+
